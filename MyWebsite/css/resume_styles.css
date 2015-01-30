@@ -1,0 +1,93 @@
+/*
+Assignment 2 : My Own Website
+Author : Shalini Krishnamoorthi
+File Name : resume_styles.css
+Version 2 : 01/22/2015
+*/
+
+#dl
+{
+	float:right;
+	margin: 0px 0px 30px 300px; /*top right bottom left*/
+}
+
+h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;	
+	color: #CBD633;
+}
+
+.icons{
+	width:30pt;
+	height:30pt;
+}
+
+.blog{
+	float:right;
+	width:30pt;
+	height:30pt;
+}
+
+.project-title{
+	font-weight:bold;
+}
+
+.sub-title{
+	float:right;
+}
+h2
+{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;	
+	color: #37BFE8;
+	float:center;
+}
+
+h3
+{
+	font-weight: bold;
+	text-decoration : underline;
+	color: #37BFE8;
+}
+
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	color:#5F6060;
+
+}
+.job-desc{
+	font-style: italic;
+
+}
+.no_style{
+	list-style-type:none; 
+}
+
+.linkedin_icon{
+	width:120pt;
+	height:25pt;
+}
+
+.hidden {
+	display: none;
+}
+/*header{
+    position:absolute;
+    top:0;
+    color:#5F6060;
+}
+
+footer{
+	color: #5F6060;
+    bottom: 0;
+    position: fixed;
+    z-index:-1;
+    text-align: center;
+
+}*/

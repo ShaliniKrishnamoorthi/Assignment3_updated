@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+ Assignment 2 : My Own Website
+ Author : Shalini Krishnamoorthi
+ File Name : blog.html
+ Version 2 : 01/22/2015
+
+-->
+<html>
+    <head>
+        <title>Welcome to my blog</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/blog_styles.css" />
+    </head>
+    <body background="../img/sunflower_bw.jpg" >
+        <!-- My blog page http://shalcan.blogspot.com/ -->
+        
+        <section>   
+            <header></header> 
+            <footer> </footer> 
+        <section>
+
+        <h1>Welcome to my blog</h1>
+
+		<a href="index.html"> 
+    		<img class="icons" src="../img/home_icon.png" alt=""/>  
+    	</a>
+
+    	<a href="resume.html"> 
+    		<img class="icons" src="../img/Iconresume1.png" alt=""/>  
+    	</a>
+    	
+    	<h2>The Nilgiris</h2>
+
+        <article> 
+            'Nilgiris' means Blue hills, one of the oldest mountain ranges, part of the Western Ghats. Ooty the "Queen of Hill Stations", Coonoor and Kotagiri, are the three hill stations of this district.
+        </article>
+        <p>
+                Nilgiris is India's first biosphere. It has been declared as one of the 14 'hotspots' of the world because of 
+                its unique bio-diversity.Rolling grasslands, dense sholas, waterfalls, streams, lakes, vast expanse of tea plantations, interspersed with vegetable gardens, spectacular view points, an amazing variety of flora and fauna, fabulous trekking trails, innumerable heritage sites, spell binding sunrises and sunsets, magical light, pollution free atmosphere, mist, clouds, fog, star studded skies, serenity etc.
+        </p>
+        <article>
+            
+                The original inhabitants of the Nilgiri Hills were the Toda, Badaga, Kota, Irula and kurumbas.Doddabetta Peak, lies at the junction of the Western and Eastern Ghats and offers beautiful vistas of the Nilgiri Hill ranges with a height of 2,637 metres (8,652 ft) is the highest point in the Nilgiris and the southern extent of the range.
+        </article> 
+        
+        <h1> Few pics.... </h1>
+        
+        <img src="../img/Doddabetta.jpg" alt="Me on vacation" />
+        <img src="../img/Emerald_Lake_Nilgiris.jpg" alt="Me on vacation" />
+        <img src="../img/Emeralddam.jpg" alt="Me on vacation" border=""/>
+        <img src="../img/ooty.jpg" alt="Me on vacation" border=""/>
+        <img src="../img/ooty1.jpg" alt="Me on vacation" border=""/>
+        <img src="../img/ooty3.jpg"  alt="Me on vacation" border=""/>
+        <img src="../img/PykaraFalls.jpg"  alt="Me on vacation" border=""/>
+        <img src="../img/TeaPlantations.jpg"  alt="Me on vacation" border=""/>
+
+         <form action="dummy.php" method="POST" novalidate>
+            Your feedback is much appreciated :). 
+            <section>
+                <label for="nameField"> Your name : </label>
+                <input id="nameField" type="text" name="userName" placeholder="Your Name" />
+            </section>
+            
+            <section>
+                <label for="likeField"> Did you like it?</label>
+                <input  name="likeField" type="radio" value="like" checked>Yes
+                <input  name="likeField" type="radio" value="unlike" >No
+            </section>
+            
+            <section>
+                <label for="SubscribeField"> Would you like to Subscribe?</label>
+                <input id="SubscribeField" type="checkbox" checked />
+            </section>
+
+            <section>
+                <label for="dateField"> Please enter the date</label>
+                <input id="dateField" type="date" />
+            </section>
+
+            <section>
+                <label for="emailField"> Email ID:</label>
+                <input id="emailField" type="email" />
+            </section>
+
+            <section> 
+                <label for="RateField"> How would you like to rate it? (1 being the Best)</label>           
+                <select id="RateField">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </section>
+
+            <article>
+                <label for="CommentField">  Please leave your comments here!</label>
+                <textarea id="CommentField"></textarea>
+                <input type="submit" value="submit"/>
+            </article>
+        </form>
+        <br>
+        <script type="text/javascript" src="../js/script.js"></script>
+    </body>
+</html>

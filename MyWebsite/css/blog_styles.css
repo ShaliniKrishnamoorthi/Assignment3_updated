@@ -1,0 +1,65 @@
+/*
+Assignment 2 : My Own Website
+Author : Shalini Krishnamoorthi
+File Name : blog_styles.css
+Version 2 : 01/22/2015
+*/
+
+h1{
+	font-size:32pt;
+	font-family:'Brush Script MT', cursive;
+	text-align: left;
+	color:yellow;
+}
+
+h2
+{
+	font-family:'Brush Script MT', cursive;
+	font-size: 40pt;
+	font-weight: normal;
+	text-align: center;	
+	color: white;
+}
+
+.icons{
+	width:30pt;
+	height:30pt;
+}
+
+article{
+	font-family:'Brush Script MT', cursive;
+	font-size:26pt;
+	color:white;
+	font-weight: normal;
+}
+p{
+	font-family:'Brush Script MT', cursive;
+	font-size:26pt;
+	font-weight: normal;
+}
+img{
+	width:400pt;
+	height:300pt;
+}
+
+form{
+
+	font-family:'Brush Script MT', cursive;
+	font-size: 30pt;
+	color:yellow;
+}
+
+/*header{
+    position:absolute;
+    top:0;
+    color:white;
+}
+
+footer{
+	color: white;
+    bottom: 0;
+    position: fixed;
+    z-index:-1;
+    text-align: center;
+
+}*/
